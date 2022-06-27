@@ -12,6 +12,16 @@
     .page {
         padding: 100px 0px 100px 0px;
     }
+
+    ._container {
+        display: grid;
+        gap: 30px;
+    }
+    .buttons{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
 </style>
 
 <body>
@@ -74,7 +84,7 @@
                 </li>
             </ul>
             <div class="menu__big-links main-links main-links_gray">
-                <a href="" class="main-link">
+                <a href="http://t.me/IvanKapitonov" class="main-link" target="_blank">
                     <span class="main-link__icon main-link__icon_top">
                         <img src="img/icons/message.svg" alt="">
                     </span>
@@ -86,7 +96,7 @@
                         <span class="main-link__icon main-link__icon_next _icon-arrow-right"></span>
                     </div>
                 </a>
-                <a href="" class="main-link">
+                <a href="tel:+89652362772" class="main-link">
                     <span class="main-link__icon main-link__icon_top _icon-phone">
                     </span>
                     <div class="main-link__content">
@@ -97,24 +107,26 @@
                         <span class="main-link__icon main-link__icon_next _icon-arrow-right"></span>
                     </div>
                 </a>
-                <a href="" class="main-link">
+                <a href="consult.html" class="main-link">
                     <span class="main-link__icon main-link__icon_top _icon-calendar">
                     </span>
                     <div class="main-link__content">
                         <span class="main-link__text">
-                            Записаться
-                            <span class="_db-block">на консультацию</span>
+                            <span class="_no-wrap">Записаться <span class="_hide-mob">на</span></span>
+                            <span class="_db-block">консультацию</span>
                         </span>
                         <span class="main-link__icon main-link__icon_next _icon-arrow-right"></span>
                     </div>
                 </a>
-                <a href="" class="main-link">
+                <a href="mailto:kapitonov.ivan@bk.ru" class="main-link" target="_blank">
                     <span class="main-link__icon main-link__icon_top _icon-mail">
                     </span>
                     <div class="main-link__content">
                         <span class="main-link__text">
-                            Отправить
-                            <span class="_db-block">письмо</span>
+                            <span class="_no-wrap">Отправить <span class="_hide-mob">письмо</span></span>
+                            <span class="_db-block">
+                                на e-mail
+                            </span>
                         </span>
                         <span class="main-link__icon main-link__icon_next _icon-arrow-right"></span>
                     </div>
@@ -194,38 +206,207 @@
                         </div>
                     </a>
                 </div>
+                <a href="" class="column-link">
+                    <div class="column-link__content">
+                        <div class="column-link__text">
+                            <span class="column-link__text-static">Консультация</span>
+                            <span class="column-link__text-absolute">Подробнее</span>
+                        </div>
+                        <span class="column-link__icon _icon-arrow-right"></span>
+                    </div>
+                </a>
+                <div class="buttons">
+                    <a href="" class="btn">
+                        <span class="btn__text">
+                            Получить консультацию
+                        </span>
+                        <span class="btn__icon _icon-arrow-right"></span>
+                    </a>
+                    <a href="" class="btn">
+                        <span class="btn__text">
+                            Получить консультацию
+                        </span>
+                        <span class="btn__icon">
+                            <img src="img/icons/book.svg" alt="">
+                        </span>
+                    </a>
+                </div>
             </div>
         </main>
         <!-- *footer -->
         <footer class="footer">
-    <div class="footer__container _container">
-        
+    <div class="footer__main _section-border">
+        <div class="footer__container _container">
+            <div class="footer__body">
+                <div class="footer__content">
+                    <div class="footer__block">
+                        <h2 class="footer__title _title">
+                            Как связаться
+                        </h2>
+                        <ul class="footer__media">
+                            <li class="footer__media-item">
+                                <a href="https://wa.me/89652362772" class="_icon-whatsapp" target="_blank"></a>
+                            </li>
+                            <li class="footer__media-item">
+                                <a href="https://t.me/IvanKapitonov" class="_icon-telegram" target="_blank"></a>
+                            </li>
+                            <li class="footer__media-item">
+                                <a href="https://www.facebook.com/profile.php?id=100054618487252" class="_icon-facebook" target="_blank"></a>
+                            </li>
+                            <li class="footer__media-item">
+                                <a href="https://www.instagram.com/kapitonov.mind/" class="_icon-instagram" target="_blank"></a>
+                            </li>
+                            <li class="footer__media-item">
+                                <a href="https://www.youtube.com/c/MrStolkom/videos" class="_icon-youtube" target="_blank"></a>
+                            </li>
+                            <li class="footer__media-item">
+                                <a href="https://vk.com/kapitonov.mind" class="_icon-vk" target="_blank"></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer__block">
+                        <h3 class="footer__title footer__title_small _title-item">
+                            Подписаться
+                        </h3>
+                        <a href="https://t.me/IvanKapitonov" class="footer__button btn" target="_blank">
+                            <span class="btn__text"><span class="_hide-mob">Telegram-канал</span> “Переменная разума”</span>
+                            <span class="btn__icon _icon-telegram">
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer__main-links main-links main-links_gray">
+                    <a href="http://t.me/IvanKapitonov" class="main-link" target="_blank">
+                        <span class="main-link__icon main-link__icon_top">
+                            <img src="img/icons/message.svg" alt="">
+                        </span>
+                        <div class="main-link__content">
+                            <span class="main-link__text">
+                                Написать
+                                <span class="_db-block">сообщение</span>
+                            </span>
+                            <span class="main-link__icon main-link__icon_next _icon-arrow-right"></span>
+                        </div>
+                    </a>
+                    <a href="tel:+89652362772" class="main-link">
+                        <span class="main-link__icon main-link__icon_top _icon-phone">
+                        </span>
+                        <div class="main-link__content">
+                            <span class="main-link__text">
+                                Позвонить
+                                <span class="_db-block">по телефону</span>
+                            </span>
+                            <span class="main-link__icon main-link__icon_next _icon-arrow-right"></span>
+                        </div>
+                    </a>
+                    <a href="consult.html" class="main-link">
+                        <span class="main-link__icon main-link__icon_top _icon-calendar">
+                        </span>
+                        <div class="main-link__content">
+                            <span class="main-link__text">
+                                <span class="_no-wrap">Записаться <span class="_hide-mob">на</span></span>
+                                <span class="_db-block">консультацию</span>
+                            </span>
+                            <span class="main-link__icon main-link__icon_next _icon-arrow-right"></span>
+                        </div>
+                    </a>
+                    <a href="mailto:kapitonov.ivan@bk.ru" class="main-link" target="_blank">
+                        <span class="main-link__icon main-link__icon_top _icon-mail">
+                        </span>
+                        <div class="main-link__content">
+                            <span class="main-link__text">
+                                <span class="_no-wrap">Отправить <span class="_hide-mob">письмо</span></span>
+                                <span class="_db-block">
+                                    на e-mail
+                                </span>
+                            </span>
+                            <span class="main-link__icon main-link__icon_next _icon-arrow-right"></span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer__footer footer-footer _section-padding">
+        <div class="footer-footer__container _container">
+            <div class="footer-footer__links">
+                <a class="footer-footer__link" href="https://ivankapitonov.ru/privacy" target="_blank">
+                    Политика конфиденциальности
+                </a>
+                <a class="footer-footer__link" href="https://ivankapitonov.ru/oferta" target="_blank">
+                    Договор оферты
+                </a>
+            </div>
+        </div>
     </div>
 </footer>
     </div>
-    <div class="popup popup_popup">
+    <div class="popup popup_gallery gallery-popup">
 	<div class="popup__content">
-		<div class="popup__body">
-			<div class="popup__close"></div>
+		<div class="gallery-popup__body popup__body">
+			<div class="gallery-popup__slider">
+				<div class="gallery-popup__slider-body swiper">
+					<div class="gallery-popup__wrapper swiper-wrapper">
+						<div class="gallery-popup__slide swiper-slide">
+							<div class="gallery-popup__image">
+								<img src="img/documents/01.png" alt="">
+							</div>
+						</div>
+						<div class="gallery-popup__slide swiper-slide">
+							<div class="gallery-popup__image">
+								<img src="img/documents/02.jpg" alt="">
+							</div>
+						</div>
+						<div class="gallery-popup__slide swiper-slide">
+							<div class="gallery-popup__image">
+								<img src="img/documents/03.jpg" alt="">
+							</div>
+						</div>
+						<div class="gallery-popup__slide swiper-slide">
+							<div class="gallery-popup__image">
+								<img src="img/documents/04.jpg" alt="">
+							</div>
+						</div>
+						<div class="gallery-popup__slide swiper-slide">
+							<div class="gallery-popup__image">
+								<img src="img/documents/05.jpg" alt="">
+							</div>
+						</div>
+						<div class="gallery-popup__slide swiper-slide">
+							<div class="gallery-popup__image">
+								<img src="img/documents/07.jpg" alt="">
+							</div>
+						</div>
+						<div class="gallery-popup__slide swiper-slide">
+							<div class="gallery-popup__image">
+								<img src="img/documents/08.jpg" alt="">
+							</div>
+						</div>
+						<div class="gallery-popup__slide swiper-slide">
+							<div class="gallery-popup__image">
+								<img src="img/documents/09.jpg" alt="">
+							</div>
+						</div>
+						<div class="gallery-popup__slide swiper-slide">
+							<div class="gallery-popup__image">
+								<img src="img/documents/10.jpg" alt="">
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="gallery-popup__nav">
+					<button type="button" class="gallery-popup__arrow gallery-popup__arrow_prev">
+						<img src="img/icons/p-left.svg" alt="">
+					</button>
+					<button type="button" class="gallery-popup__arrow gallery-popup__arrow_next">
+						<img src="img/icons/p-right.svg" alt="">
+					</button>
+				</div>
+			</div>
 		</div>
+		<div class="popup__close"></div>
 	</div>
 </div>
-<div class="popup popup_massagename-message">
-	<div class="popup__content">
-		<div class="popup__body">
-			<div class="popup__close"></div>
-		</div>
-	</div>
-</div>
-<div class="popup popup_video">
-	<div class="popup__content">
-		<div class="popup__body">
-			<div class="popup__close popup__close_video"></div>
-			<div class="popup__video _video"></div>
-		</div>
-	</div>
-</div>
-
     <!-- Swiper -->
 <!-- <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> -->
 <script src="js/vendors.min.js"></script>
