@@ -618,7 +618,7 @@ textarea.input {
 }
 
 ._gradient-color2 {
-  background: linear-gradient(90deg, #E2608A 0%, #61C2E3 100%);
+  background: linear-gradient(90deg, #e2608a 0%, #61c2e3 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   color: #fff;
@@ -965,6 +965,10 @@ textarea.input {
   font-size: 1rem;
   line-height: 150%;
   color: #999999;
+}
+
+._lazy {
+  background: url("../img/icons/loading.gif") center/50px no-repeat;
 }
 
 ._ibg {
@@ -2227,6 +2231,14 @@ textarea.input {
   line-height: 150%;
   color: #999999;
 }
+@media (any-hover: hover) {
+  .channel__item-watch {
+    transition: all 0.3s ease 0s;
+  }
+  .channel__item-watch:hover {
+    color: #fff;
+  }
+}
 @media (max-width: 29.99875em) {
   .channel__item-watch {
     font-size: 0.875rem;
@@ -2503,6 +2515,9 @@ textarea.input {
   flex: 1 1 auto;
   width: 100%;
   margin: 0px 0px 100px 0px;
+}
+.accompaniment .columns-format__items {
+  margin: 0px 0px 60px 0px;
 }
 .columns-format__item {
   position: relative;
